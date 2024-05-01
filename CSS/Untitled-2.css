@@ -1,0 +1,68 @@
+     *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      header{
+        background-color: red;
+      }
+      h1{
+          color: yellow;
+          text-align: center;
+          padding: 5%;
+          font-size: 64px;
+          font-family:unset
+      }
+      .hero img{
+      position: absolute;
+      display: block;
+      margin-left: 30px;
+      margin-right: 30px;
+      width: 95%;
+      filter: brightness(50%);
+      }
+      div.centered{
+      text-align: center;
+      position: absolute;
+      top: 70%;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-size: 50px;
+      color: yellow;
+      }
+      ul{
+      text-align: center;
+      padding: 2%;
+      }
+      li{
+      display: inline-block;
+      width: 10%;
+      line-height: 300%;
+      border: 3px solid yellow;
+      }
+      div.left, div.middle, div.right{
+      position: relative;
+      text-align: center;
+      width: 25%;
+      display: inline-block;
+      color: yellow;
+      font-size: 20px;
+      }
+      div.left{
+          padding-top: 40%;
+      }
+      div.middle{
+          margin-left: 8%;
+          margin-right: 8%;
+      }
+      aside{
+          padding-left: 10%;
+      }
+      a{
+          color: yellow;
+          text-decoration: none;
+          display: block;
+      }
+      a:hover{
+          color: blueviolet;
+      }
